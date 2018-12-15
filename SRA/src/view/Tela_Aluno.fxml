@@ -8,8 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="controller.Tela_AlunoController">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Tela_AlunoController">
    <children>
       <TableView fx:id="table_view_medicos" layoutX="10.0" layoutY="74.0" prefHeight="592.0" prefWidth="690.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
          <columns>
@@ -20,17 +19,17 @@
             <TableColumn fx:id="colum_celular" prefWidth="138.0" text="Turno " />
          </columns>
       </TableView>
-      <Button fx:id="btn_adicionar_medico" layoutX="36.0" layoutY="564.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #218838;" text="Adicionar" textFill="WHITE">
+      <Button fx:id="btn_adicionar_aluno" layoutX="36.0" layoutY="564.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #218838;" text="Adicionar" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="btn_deletar_medico" layoutX="136.0" layoutY="564.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #C82333;" text="Deletar" textFill="WHITE">
+      <Button fx:id="btn_deletar_aluno" layoutX="136.0" layoutY="564.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #C82333;" text="Deletar" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="btn_editar_medico" layoutX="235.0" layoutY="564.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #E0A800;" text="Editar" textFill="WHITE">
+      <Button fx:id="btn_editar_aluno" layoutX="235.0" layoutY="564.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" style="-fx-background-color: #E0A800;" text="Editar" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>

@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="controller.Tela_Aluno_CadastroController">
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Tela_Aluno_CadastroController">
    <children>
       <Label layoutX="447.0" layoutY="26.0" text="Cadastro de Aluno" textFill="#616161">
          <font>
@@ -20,7 +19,7 @@
       </Label>
       <ImageView fitHeight="83.0" fitWidth="85.0" layoutX="344.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Users/klebson/Documents/GitHub/PRO-MED-JFx/promed/src/imagens/cadastro_usuario.png" />
+            <Image url="@../imagens/cadastro_usuario_1.png" />
          </image>
       </ImageView>
       <Button fx:id="btSalvar" alignment="CENTER_RIGHT" layoutX="620.0" layoutY="527.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="160.0" text="SALVAR" textAlignment="RIGHT" textFill="#656363">
@@ -50,7 +49,7 @@
       </Label>
       <ImageView fitHeight="51.0" fitWidth="60.0" layoutX="21.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Users/klebson/Documents/GitHub/PRO-MED-JFx/promed/src/imagens/dados_usuario.png" />
+            <Image url="@../imagens/dados_usuario_1.png" />
          </image>
       </ImageView>
       <Label layoutX="77.0" layoutY="301.0" text="Contato" textFill="#515151">
@@ -60,7 +59,7 @@
       </Label>
       <ImageView fitHeight="51.0" fitWidth="60.0" layoutX="17.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Users/klebson/Documents/GitHub/PRO-MED-JFx/promed/src/imagens/contato_usuario.png" />
+            <Image url="@../imagens/contato_usuario_1.png" />
          </image>
       </ImageView>
       <Label layoutX="77.0" layoutY="401.0" text="Endereço" textFill="#515151">
@@ -70,7 +69,7 @@
       </Label>
       <ImageView fitHeight="51.0" fitWidth="60.0" layoutX="17.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Users/klebson/Documents/GitHub/PRO-MED-JFx/promed/src/imagens/endereco_usuario.png" />
+            <Image url="@../imagens/endereco_usuario_1.png" />
          </image>
       </ImageView>
       <Label layoutX="21.0" layoutY="166.0" text="Nome Civil">
