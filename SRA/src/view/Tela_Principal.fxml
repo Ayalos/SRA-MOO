@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #fff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="controller.Tela_PrincipalController">
+   <children>
+      <MenuBar layoutY="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Arquivo">
+            <items>
+              <MenuItem fx:id="MenuItem_Arquivo_Sair" mnemonicParsing="false" text="Sair" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Professor">
+            <items>
+              <MenuItem fx:id="MenuItem_Professor_Listagem" mnemonicParsing="false" text="Listagem" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Aluno">
+            <items>
+              <MenuItem fx:id="MenuItem_Aluno_Listagem" mnemonicParsing="false" text="Listagem" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Diretor">
+              <items>
+                <MenuItem fx:id="MenuItem_Diretor_Listagem" mnemonicParsing="false" text="Listagem" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Relatórios">
+              <items>
+                <MenuItem fx:id="MenuItem_Relatorio_Aluno" mnemonicParsing="false" text="Alunos" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="118.0" fitWidth="113.0" layoutX="673.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0">
+         <image>
+            <Image url="@../imagens/relatorio_grafico_100.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="223.0" layoutY="519.0" prefHeight="37.0" prefWidth="450.0" text="Sistema de Relatórios Acadêmicos" AnchorPane.bottomAnchor="44.0" AnchorPane.rightAnchor="127.0">
+         <font>
+            <Font name="Calibri Light" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
